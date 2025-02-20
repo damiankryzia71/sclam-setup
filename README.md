@@ -2,7 +2,8 @@
 ### Authors: https://github.com/rodrigo-munguia/SCLAM-UAVs
 
 The steps in this guide were executed on a freshly installed Ubuntu 20.04 system running on VMWare.
-[VMWare Download](https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES)
+- [VMWare Download](https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES)
+- [Ubuntu 20.04 ISO Download](https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso)
 
 Before launching and using the SCLAM project, necessary dependencies must be installed.
 These include:
