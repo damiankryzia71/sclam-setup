@@ -1,6 +1,9 @@
 # Visual SCLAM Project Setup
 ### Authors: https://github.com/rodrigo-munguia/SCLAM-UAVs
 
+The steps in this guide were executed on a freshly installed Ubuntu 20.04 system running on VMWare.
+[VMWare Download](https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES)
+
 Before launching and using the SCLAM project, necessary dependencies must be installed.
 These include:
 - ROS 2 Galactic
@@ -12,4 +15,4 @@ These include:
 This guide will walk you through the installation of these dependencies and the main project.
 The dependencies can be installed in any order, following the order of this depository is not required.
 
-### 1. 
+### 1. Install ROS 2
