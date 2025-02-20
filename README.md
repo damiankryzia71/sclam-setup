@@ -118,3 +118,38 @@ sudo make -j$(nproc)
 sudo make install
 sudo ldconfig
 ```
+
+Optionally: reboot the system to ensure everything is correct.
+```bash
+sudo reboot
+```
+
+### 5. Install Webots v.R2023a
+Run the following script to install the Webots Simulator (v.R2023a).
+
+```bash
+cd ~
+wget https://github.com/cyberbotics/webots/releases/download/R2023a/webots_2023a_amd64.deb
+sudo apt update
+sudo apt install ./webots_2023a_amd64.deb
+```
+
+Optionally: reboot the system to ensure everything is correct.
+```bash
+sudo reboot
+```
+
+### 6. Build the Visual SCLAM project.
+First, install the webots_ros2_driver package for ROS 2.
+```bash
+sudo apt install ros-galactic-webots-ros2-driver
+```
+Then clone the project repository.
+```bash
+cd ~
+git clone https://github.com/rodrigo-munguia/SCLAM-UAVs.git
+```
+After cloning the repository, open the file located at ~/SCLAM-UAVs/src/globalslam/src/gmap_init_new_map_points.cpp and comment out this line:
+```cpp
+#include <numbers>
+```
