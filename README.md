@@ -8,7 +8,7 @@ The steps in this guide were executed on a freshly installed Ubuntu 20.04 system
 Before launching and using the SCLAM project, necessary dependencies must be installed.
 These include:
 - ROS 2 Galactic
-- Armadillo 11.1.0
+- Armadillo 11.0.1
 - OpenCV 4.2.0 with contrib modules
 - GTSAM 4.1.1
 - Webots v.R2023a
@@ -31,4 +31,18 @@ sudo apt upgrade
 sudo apt install ros-galactic-desktop
 sudo apt install ros-galactic-ros-base
 sudo apt install ros-dev-tools
+```
+
+### 2. Install Armadillo 11.0.1
+First, download Armadillo 11.0.1 [here](https://sourceforge.net/projects/arma/files/armadillo-11.0.1.tar.xz/download?use_mirror=master).
+Then run the script below to install it.
+
+```bash
+sudo apt update
+sudo apt install cmake libopenblas-dev liblapack-dev libarpack2-dev libsuperlu-dev
+cd ~
+sudo mv Downloads/armadillo-11.0.1.tar.xz .
+sudo tar xf armadillo-11.0.1.tar.xz
+cd armadillo-11.0.1/
+sudo cmake .
 ```
