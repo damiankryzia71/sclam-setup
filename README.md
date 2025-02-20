@@ -149,7 +149,7 @@ Then clone the project repository.
 cd ~
 git clone https://github.com/rodrigo-munguia/SCLAM-UAVs.git
 ```
-After cloning the repository, open the file located at ~/SCLAM-UAVs/src/globalslam/src/gmap_init_new_map_points.cpp and comment out this line:
+After cloning the repository, open the file located at ~/SCLAM-UAVs/src/globalslam/src/gmap_init_new_map_points.cpp and comment out this line (the <numbers> library is not supported by Ubuntu 20's GCC/G++ 9.4.0 and other parts of the project seem to break after updating GCC/G++. At the same time, the file doesn't actually use this library anywhere.)
 ```cpp
 #include <numbers>
 ```
