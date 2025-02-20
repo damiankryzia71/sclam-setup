@@ -153,3 +153,16 @@ After cloning the repository, open the file located at ~/SCLAM-UAVs/src/globalsl
 ```cpp
 #include <numbers>
 ```
+Save the file.
+Run the following script to build the project.
+```bash
+cd ~/SCLAM-UAVs/
+source /opt/ros/galactic/setup.bash
+colcon build --packages-select interfaces
+source install/setup.bash
+colcon build
+```
+Finally, launch the project by running the launch.sh script in the ~/SCLAM-UAVs/ directory.
+```bash
+./launch.sh
+```
