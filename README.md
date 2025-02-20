@@ -1,5 +1,5 @@
 # Visual SCLAM Project Setup
-### Authors: https://github.com/rodrigo-munguia/SCLAM-UAVs
+### Project Authors: https://github.com/rodrigo-munguia/SCLAM-UAVs
 
 The steps in this guide were executed on a freshly installed Ubuntu 20.04 system running on VMWare.
 - [VMWare Download](https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES)
