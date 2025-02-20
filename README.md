@@ -33,6 +33,11 @@ sudo apt install ros-galactic-ros-base
 sudo apt install ros-dev-tools
 ```
 
+Optionally: reboot the system to ensure everything is correct.
+```bash
+sudo reboot
+```
+
 ### 2. Install Armadillo 11.0.1
 First, download Armadillo 11.0.1 [here](https://sourceforge.net/projects/arma/files/armadillo-11.0.1.tar.xz/download?use_mirror=master).
 Then run the script below to install it.
@@ -45,4 +50,9 @@ sudo mv Downloads/armadillo-11.0.1.tar.xz .
 sudo tar xf armadillo-11.0.1.tar.xz
 cd armadillo-11.0.1/
 sudo cmake .
+```
+
+Optionally: reboot the system to ensure everything is correct.
+```bash
+sudo reboot
 ```
