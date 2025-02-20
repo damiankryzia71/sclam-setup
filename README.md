@@ -71,3 +71,8 @@ sudo mkdir build && cd build
 sudo cmake ..
 sudo make install
 ```
+
+Optionally: reboot the system to ensure everything is correct.
+```bash
+sudo reboot
+```
