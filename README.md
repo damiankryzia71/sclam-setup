@@ -18,7 +18,8 @@ The dependencies can be installed in any order, following the order of this depo
 
 ### 1. Install ROS 2
 Run the following script to install ROS 2 Galactic and its necessary dependencies.
-'''bash
+
+```bash
 sudo apt update && sudo apt install locales
 sudo apt install software-properties-common
 sudo add-apt-repository universe
@@ -30,4 +31,4 @@ sudo apt upgrade
 sudo apt install ros-galactic-desktop
 sudo apt install ros-galactic-ros-base
 sudo apt install ros-dev-tools
-'''
+```
