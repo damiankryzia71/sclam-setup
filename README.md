@@ -9,7 +9,7 @@ Before launching and using the SCLAM project, necessary dependencies must be ins
 These include:
 - ROS 2 Galactic
 - Armadillo 11.0.1
-- OpenCV 4.2.0 with contrib modules
+- OpenCV 4.2.0 with contrib module, VTK, and Ceres
 - GTSAM 4.1.1
 - Webots v.R2023a
 
